@@ -1,0 +1,29 @@
+@charset 'utf-8';
+
+/* 푸터 섹션 */
+footer>.row{border-top:2px solid #00a651;padding:26px 10px;overflow:hidden;}
+footer>.row>div{float:left;}
+footer>.row>div.footer_logo{margin-right:62px;}
+footer>.row>div.slt_btn{float:right;}
+    /* 푸터 로고 */
+.footer_logo_top{overflow:hidden;}
+.footer_logo .logo_point{float:left;margin-right:6px;}
+.footer_logo .logo_point>span{display:block;width:6px;height:6px;text-indent:-3000px;}
+.footer_logo span.blue_point{background:#007dc6;margin-bottom:6px;}
+.footer_logo span.green_point{background:#00a651;}
+.footer_logo .logo_txt{float:left;}
+.footer_logo .logo_txt>p{font-family: 'Roboto', sans-serif;font-weight:900;font-size:24px;color:#111111;margin-top:-6px;margin-left:0;}
+.footer_logo_buttom>p{font-size:12px;color:#111111;text-align:right;}
+    /* 어드레스 */
+address{font-style:normal;}
+address>p{font-size:12px;color:#5b6366;}
+address>p:first-child{margin-bottom:10px;}
+address>p:last-child{font-family:'Roboto', sans-serif;}
+    /* 계열사 */
+.slt_top{margin-bottom:2px;}
+.slt_top>select{width:120px;border:1px solid #5b6366;padding:1px 3px;font-size:10px;}
+.slt_top option{padding:4px 0;font-size:10px;color:#5b6366;}
+.slt_top>button{width:36px;height:18px;background:#007dc6;}
+.slt_top>button:hover{background:#00a651;}
+.slt_top>button>span{font-family:'Roboto',sans-serif;font-size:12px;color:white;}
+.slt_bottom>p{font-size:12px;color:#5b6366;}

@@ -1,0 +1,14 @@
+@charset 'utf-8';
+
+/* footer style */
+footer{color:white;}
+footer>div{}
+footer>div.ft_menu{background:#007dc6;}
+div.ft_menu>ul{overflow:hidden;padding:10px 0;}
+div.ft_menu>ul>li{float:left;width:108px;border-right:1px solid rgba(204,204,204,0.5);padding:10px 0;}
+div.ft_menu>ul>li:nth-child(2){width:142px;}
+div.ft_menu>ul>li:last-child{border-right:none;}
+div.ft_menu>ul>li>p{text-align:center;font-weight:bold;font-size:14px;}
+footer>div.address{background:#232b30;padding:18px 0;}
+div.address>address{font-size:12px;text-align:center;font-style:normal;}
+div.address>address:first-child{margin-bottom:14px;}

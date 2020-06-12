@@ -1,0 +1,36 @@
+@charset 'utf-8';
+
+/* section style */
+section{padding:10px;background:#cccccc;}
+.mg_bt10{margin-bottom:10px;}
+    /* banner article */
+article.banner{overflow:hidden;position:relative;color:white;}
+article.banner>img{vertical-align:bottom;}
+article.banner>ul{position:absolute;left:0;top:0;padding:44px 24px;}
+article.banner li{margin-bottom:15px;}
+article.banner h2{font-weight:900;font-size:60px;}
+article.banner p{font-weight:bold;font-size:15px;line-height:20px;}
+article.banner li:last-child p{font-weight:400;font-size:12px;line-height:16px;}
+
+    /* papers article */
+.papers{background:#007dc6;color:white;overflow:hidden;}
+.papers>div{float:left;box-sizing:border-box;width:85px;height:85px;border-right:1px solid #cccccc;padding:13px 0;}
+.papers>div:last-child{border-right:none;}
+.papers>div>h3{text-align:center;font-weight:bold;font-size:15px;margin-bottom:12px;}
+.papers>div>div{text-align:center;height:32px;overflow:hidden;}
+.papers>div>div>img{display:inline-block;width:30px;}
+.papers img[src*="pp02"]{width:46px;}
+.papers img[src*="pp03"]{width:36px;}
+.papers img[src*="pp04"]{width:50px;margin-top:5px;}
+
+    /* notice article */
+.notice{background:white;color:#5b6366;}
+.notice>ul{margin:0 10px;}
+.notice>ul>li{border-bottom:1px solid #cccccc;padding:16px 0;}
+.notice>ul>li:last-child{border-bottom:none;}
+.notice>ul>li>p:first-child{margin-bottom:12px;line-height:22px;}
+.notice>ul>li>p:last-child{font-size:12px;}
+li.notice_tit{overflow:hidden;}
+li.notice_tit>h4{float:left;font-weight:400;font-size:19px;}
+li.notice_tit>p{float:right;margin-top:3px;font-size:14px !important;}
+
